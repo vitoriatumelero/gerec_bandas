@@ -1,4 +1,5 @@
 from musico import Musico
+from album import Album
 class Banda:
    def __init__(self, nome):
       self.nome = nome

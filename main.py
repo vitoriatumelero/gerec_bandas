@@ -1,6 +1,7 @@
 from banda import Banda
 from musico import Musico
 from instrumento import Guitarra, Bateria
+from album import Album
 
 # Criando instrumentos
 guitarra = Guitarra('Fender Stratocaster', 'Cordas', 6)
@@ -17,3 +18,7 @@ banda.adicionar_musico(musico2)
 
 # Exibindo informações da banda
 banda.mostrar_musicos()
+
+#exibir album
+album= Album('Faixa', '2013', 'faixas')
+album.mostrar_info()
